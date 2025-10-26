@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Meta tags-->
+    <meta name="description" content="Contact Retro Replay—share your favorite classic games or feedback.">
+<meta name="keywords" content="contact, retro games, feedback">
+
+    <title>Contact | Retro Replay</title>
+    <link rel="stylesheet" href="stylesheet.css"/>
+</head>
+<body>
+
+    <!-- Site Header -->
+  <header class="siteHeader">
+    <div class="container headerInner">
+      <a class="logo" href="index.html" aria-label="Retro Replay Home">🕹️ Retro Replay</a>
+      <nav aria-label="mainNav">
+        <ul class="nav">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="classics.html">Top Classics</a></li>
+          <li><a href="consoles.html">Consoles & History</a></li>
+          <li><a href="contact.html" aria-current="page">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!--Main-->
+  <main class="container">
+    <section class="mainTitle">
+        <h1>Contact</h1>
+        <p class="introSection">
+            Tell us your favorite classic and what you'd like to see next. (Demo Only)
+        </p>
+    </section>
+<!-- Accesible contact form-->
+<form class="contactForm" aria-describedby="contactHelp" action="#" method="post" novalidate>
+    <div class="formRow">
+        <label for="name">Name</label>
+        <input id="name" name="name" type="text" placeholder="Player One" required/>
+    </div>
+
+    <div class="formRow">
+        <label for="email">Email</label>
+        <input id="email" name="email" type="email" placeholder="you@exmaple.com" required/>
+    </div>
+
+    <div class="formRow">
+        <label for="favorite">Favorite Retro Game</label>
+        <input id="favorite" name="favorite" type="text" placeholder="e.g, Super Mario Bros."/>
+    </div>
+
+    <div class="formRow">
+        <label for="message">Message</label>
+        <textarea id="message" name="message" rows="5" placeholder="What should we cover next?"></textarea>
+    </div>
+
+    <p id="contactHelp" class="muted">Note: for the class project this form is non-functional and for demo purposes.</p>
+
+    <button class="classics" type="submit">Send</button>
+</form>
+  </main>
+  <p class="emailSection">
+    Prefer email? Reach us at
+    <a class="textLink" href="mailto:retroreplay.site@gmail.com?subject=Retro%20Replay%20Feedback">
+      retroreplay.site@gmail.com
+    </a>
+  </p>
+  
+    <!-- Footer -->
+  <footer class="site-footer">
+    <div class="container">
+      <p>2025 Retro Replay | University of Advancing Technology | Enrique Noriega</p>
+    </div>
+  </footer>
+</body>
+</html>
